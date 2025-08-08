@@ -1,0 +1,21 @@
+.custom-countdown-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.custom-countdown-item {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 80px;
+    position: relative;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.custom-countdown-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0
